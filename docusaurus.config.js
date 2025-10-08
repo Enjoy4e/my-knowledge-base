@@ -1,11 +1,11 @@
 export default {
   title: 'База знаний',
   tagline: 'Инструкции и FAQ',
-  url: 'https://yourdomain.com',
-  baseUrl: '/',
+  url: 'https://Enjoy4e.github.io',       // замените на свой GitHub username
+  baseUrl: '/my-knowledge-base/',          // имя репозитория
   favicon: 'img/favicon.ico',
-  organizationName: 'your-org',
-  projectName: 'knowledge-base',
+  organizationName: 'Enjoy4e',            // GitHub username
+  projectName: 'my-knowledge-base',        // репозиторий
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
@@ -17,7 +17,7 @@ export default {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: false,          // отключаем блог
+        blog: false,    // отключаем блог
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
